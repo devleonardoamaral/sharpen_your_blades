@@ -1,13 +1,13 @@
 version=1
-id=
-title=[B41] Sharpen Your Blades 
+id=3429455099
+title=[B41] Sharpen Your Blades
 description=[h1]How does it work?[/h1]
-description=This mod introduces a recipe that allows you to sharpen any type of blade, whether it's long, short, or axes — including blades added by other mods. When you successfully sharpen the blade, its condition will be repaired by 1 point. However, if the process fails, the blade will break permanently.
+description=This mod introduces a recipe that allows you to sharpen any type of blade, whether it's long, short, or axes ??? including blades added by other mods. When you successfully sharpen the blade, its condition will be repaired by 1 point. However, if the process fails, the blade will break permanently.
 description=
 description=The chances of success and the progression per level are based on the character's Maintenance skill level. Additionally, the mod offers full customization through the Sandbox mode options, where you can adjust the minimum and maximum success chances, the efficiency progression based on skill level, and the amount of XP the character receives when performing the recipe.
 description=
 description=[url=https://theindiestone.com/forums/index.php/topic/2530-mod-permissions/?p=36478][img]https://i.imgur.com/rpteN65.png[/img][/url][quote] This mod can only be added to and extended with the express permission of the original creator. After receiving permission, credit must be given to the original creator, both in the mod files and anywhere the mod is made available online. [/quote]
 description=
 description=[url=https://ko-fi.com/V7V0Y4HE7][img]https://storage.ko-fi.com/cdn/kofi3.png?v=3[/img][/url]
-tags=
+tags=Build 41;Balance;Items;Multiplayer;Realistic;Silly/Fun;Weapons
 visibility=public
