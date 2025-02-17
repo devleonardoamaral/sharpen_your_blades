@@ -1,0 +1,9 @@
+version=1
+id=
+title=[B41] Sharpen Your Blades 
+description=[h1]How does it work?[/h1]
+description=[url=https://theindiestone.com/forums/index.php/topic/2530-mod-permissions/?p=36478][img]https://i.imgur.com/rpteN65.png[/img][/url][quote] This mod can only be added to and extended with the express permission of the original creator. After receiving permission, credit must be given to the original creator, both in the mod files and anywhere the mod is made available online. [/quote]
+description=
+description=[url=https://ko-fi.com/V7V0Y4HE7][img]https://storage.ko-fi.com/cdn/kofi3.png?v=3[/img][/url]
+tags=
+visibility=public

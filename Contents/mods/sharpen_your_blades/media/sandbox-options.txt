@@ -1,0 +1,31 @@
+VERSION = 1,
+
+option SharpenYourBlades.minChanceToNotBreak
+{
+    type = integer,
+    min = 0,
+    max = 50,
+    default = 50,
+    page = SharpenYourBlades,
+    translation = SharpenYourBlades_MinChanceToNotBreak,
+}
+
+option SharpenYourBlades.maxChanceToNotBreak
+{
+    type = integer,
+    min = 10,
+    max = 50,
+    default = 48,
+    page = SharpenYourBlades,
+    translation = SharpenYourBlades_MaxChanceToNotBreak,
+}
+
+option SharpenYourBlades.shappenBladeRecipeXP
+{
+    type = integer,
+    min = 1,
+    max = 25,
+    default = 3,
+    page = SharpenYourBlades,
+    translation = SharpenYourBlades_ShappenBladeRecipeXP,
+}

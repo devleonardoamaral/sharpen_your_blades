@@ -1,0 +1,12 @@
+Sandbox_EN = {
+    Sandbox_SharpenYourBlades = "Sharpen Your Blades",
+
+    Sandbox_SharpenYourBlades_MinChanceToNotBreak = "Minimum chance to not break",
+    Sandbox_SharpenYourBlades_MinChanceToNotBreak_tooltip = "Minimum chance for the blade not to break. Base chance for maintenance level 0. <BR> minChance + (maxChance / 10) * maintenanceLevel = chance",
+
+    Sandbox_SharpenYourBlades_MaxChanceToNotBreak = "Maximum chance to not break",
+    Sandbox_SharpenYourBlades_MaxChanceToNotBreak_tooltip = "Maximum chance for the blade not to break, added to the minimum chance. Maximum chance the player will have to not break the blade at maintenance level 10. <BR> minChance + (maxChance / 10) * maintenanceLevel = chance",
+
+    Sandbox_SharpenYourBlades_SharpenBladeRecipeXP = "XP Amount",
+    Sandbox_SharpenYourBlades_SharpenBladeRecipeXP_tooltip = "Amount of XP received by the player upon completing the blade sharpening recipe.",
+}

@@ -1,0 +1,17 @@
+module Base
+{
+
+	sound SharpBlade
+	{
+		category = Item,
+		loop = true,
+    	is3D = true,
+		clip {
+			file = media/sound/sharpening_blade.ogg,
+			reverbFactor = 0.1,
+			volume = 0.5,
+			distanceMax = 15,
+			distanceMin = 7,
+		}
+	}
+}

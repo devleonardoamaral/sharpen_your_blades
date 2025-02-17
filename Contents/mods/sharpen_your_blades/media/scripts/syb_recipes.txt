@@ -1,0 +1,26 @@
+module SharpenYourBlades {
+    imports {
+        Base
+    }
+
+    recipe SharpenBlade
+    {
+        keep [Recipe.GetItemTypes.SharpenBlade],
+        destroy Base.Stone,
+
+        OnGiveXP:Recipe.OnGiveXP.SharpenBlade,
+        OnCreate:Recipe.OnCreate.OnSharpenBlade,
+        RemoveResultItem:true,
+        InSameInventory:true,
+        AllowDestroyedItem:false,
+        StopOnWalk:true,
+        NoBrokenItems:true,
+        Result:Base.HuntingKnife,
+        Time:1000.0,
+        Prop1:Base.FlintKnife,
+        Prop2:Source=1,
+        AnimNode:RemoveBullets,
+        CanBeDoneFromFloor:false,
+        Sound:SharpBlade,
+    }
+}
