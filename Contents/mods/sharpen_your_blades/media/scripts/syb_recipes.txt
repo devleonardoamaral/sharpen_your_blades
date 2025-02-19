@@ -8,19 +8,23 @@ module SharpenYourBlades {
         keep [Recipe.GetItemTypes.SharpenBlade],
         destroy Base.Stone,
 
+        Time:1000.0,
+        RemoveResultItem:true,
+        Result:Base.HuntingKnife,
+        
+        InSameInventory:true,
+        CanBeDoneFromFloor:false,
+        AllowDestroyedItem:false,
+        NoBrokenItems:true,
+        StopOnWalk:false,
+        StopOnRun:true,
+
         OnGiveXP:Recipe.OnGiveXP.SharpenBlade,
         OnCreate:Recipe.OnCreate.OnSharpenBlade,
-        RemoveResultItem:true,
-        InSameInventory:true,
-        AllowDestroyedItem:false,
-        StopOnWalk:true,
-        NoBrokenItems:true,
-        Result:Base.HuntingKnife,
-        Time:3000.0,
+
+        AnimNode:RemoveBullets,
         Prop1:Base.FlintKnife,
         Prop2:Source=1,
-        AnimNode:RemoveBullets,
-        CanBeDoneFromFloor:false,
         Sound:SharpBlade,
     }
 }

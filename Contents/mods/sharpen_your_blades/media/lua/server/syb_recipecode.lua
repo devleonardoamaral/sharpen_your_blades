@@ -1,5 +1,5 @@
 function Recipe.OnGiveXP.SharpenBlade(recipe, ingredients, result, player)
-    player:getXp():AddXP(Perks.Maintenance, SandboxVars.SharpenYourBlades.shappenBladeRecipeXP)
+    player:getXp():AddXP(Perks.Maintenance, SandboxVars.SharpenYourBlades.sharpenBladeRecipeXP)
 end
 
 function Recipe.GetItemTypes.SharpenBlade(scriptItems)
@@ -25,7 +25,9 @@ function Recipe.OnCreate.OnSharpenBlade(items, result, player)
     local currentCondition = item:getCondition()
 
     local level = player:getPerkLevel(Perks.Maintenance)
-    local chance = SandboxVars.SharpenYourBlades.minChanceToNotBreak + (SandboxVars.SharpenYourBlades.maxChanceToNotBreak / 10) * level
+    local minChance = SandboxVars.SharpenYourBlades.minChanceToNotBreak
+    local maxChance = SandboxVars.SharpenYourBlades.maxChanceToNotBreak
+    local chance = minChance + (maxChance - minChance) / 10 * level
     local rand = ZombRand(100) + 1
 
     if rand > chance then
@@ -33,5 +35,14 @@ function Recipe.OnCreate.OnSharpenBlade(items, result, player)
         item:setBroken(true)
     elseif currentCondition < maxCondition then
         item:setCondition(currentCondition + 1)
+    end
+
+    minChance = SandboxVars.SharpenYourBlades.minChanceToNotConsumeStone
+    maxChance = SandboxVars.SharpenYourBlades.maxChanceToNotConsumeStone
+    chance = minChance + (maxChance - minChance) / 10 * level
+    rand = ZombRand(100) + 1
+
+    if rand <= chance then
+        player:getInventory():AddItem("Base.Stone")
     end
 end

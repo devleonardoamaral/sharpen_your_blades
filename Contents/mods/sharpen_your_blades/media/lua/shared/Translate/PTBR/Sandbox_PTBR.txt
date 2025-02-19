@@ -1,11 +1,17 @@
 Sandbox_PTBR = {
     Sandbox_SharpenYourBlades = "Sharpen Your Blades",
 
-    Sandbox_SharpenYourBlades_MinChanceToNotBreak = "Chance mínima de não quebrar",
-    Sandbox_SharpenYourBlades_MinChanceToNotBreak_tooltip = "Chance mínima da lâmina não estragar. Chance base para o nível 0 de manutenção. <BR> minChance + (maxChance / 10) * maintenanceLevel = chance",
+    Sandbox_SharpenYourBlades_MinChanceToNotBreak = "Chance mínima de não quebrar a lâmina",
+    Sandbox_SharpenYourBlades_MinChanceToNotBreak_tooltip = "Chance mínima da lâmina estragar permanentemente. <BR> chance = minChance + (maxChance - minChance) / 10 * level",
 
-    Sandbox_SharpenYourBlades_MaxChanceToNotBreak = "Chance máxima de não quebrar",
-    Sandbox_SharpenYourBlades_MaxChanceToNotBreak_tooltip = "Chance máxima da lâmina não estragar, é somado com a chance mínima. Chance máxima que o jogador terá de não quebrar a lâmina no nível 10 de manutenção. <BR> minChance + (maxChance / 10) * maintenanceLevel = chance",
+    Sandbox_SharpenYourBlades_MaxChanceToNotBreak = "Chance máxima de não quebrar a lâmina",
+    Sandbox_SharpenYourBlades_MaxChanceToNotBreak_tooltip = "Chance máxima da lâmina estragar permanentemente. <BR> chance = minChance + (maxChance - minChance) / 10 * level",
+
+    Sandbox_SharpenYourBlades_MinChanceToNotConsumeStone = "Chance mínima de não consumir a pedra",
+    Sandbox_SharpenYourBlades_MinChanceToNotConsumeStone_tooltip = "Chance mínima de consumir a pedra ao terminar a receita. <BR> chance = minChance + (maxChance - minChance) / 10 * level",
+
+    Sandbox_SharpenYourBlades_MaxChanceToNotConsumeStone = "Chance máxima de não consumir a pedra",
+    Sandbox_SharpenYourBlades_MaxChanceToNotConsumeStone_tooltip = "Chance máxima de consumir a pedra ao terminar a receita. <BR> chance = minChance + (maxChance - minChance) / 10 * level",
 
     Sandbox_SharpenYourBlades_ShappenBladeRecipeXP = "Quantidade de XP",
     Sandbox_SharpenYourBlades_ShappenBladeRecipeXP_tooltip = "Quantidade de XP recebida pelo jogador ao completar a receita de afiar lãmina.",
